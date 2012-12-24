@@ -157,10 +157,10 @@
 #define ARM_ALIGNMENT 2
 #endif //ARM_ALIGNMENT
 
-#ifndef VARIABLE_NOT_USED
-#define VARIABLE_NOT_USED(a) \
+#ifndef UNUSED_VARIABLE
+#define UNUSED_VARIABLE(a) \
 	a = a
-#endif //VARIABLE_NOT_USED
+#endif //UNUSED_VARIABLE
 
 #ifndef PACKED
 #define PACKED __attribute__((packed))
