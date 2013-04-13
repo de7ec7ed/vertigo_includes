@@ -216,7 +216,7 @@
 	a:
 
 #define SECTION(a) \
-	.section a ; \
+	.section .a
 
 #endif //__ASSEMBLY__
 
